@@ -8,5 +8,7 @@ public class App {
         System.out.println(doggy.getTreat());
         System.out.println(Clifford.speak());
 
+        Dog[] doggies = {Clifford, Cheddar, doggy};
+
     }
 }
