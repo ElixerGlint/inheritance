@@ -19,7 +19,7 @@ public class corgi extends Dog {
     public String speak(int count) { //same name but diffrrent parameters
         String output = "";
         for(int i = 0; i < count; i++) {
-            output += this.speak();
+            output += this.speak() + '\n';
         }
         return output;
     }
