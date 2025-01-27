@@ -4,7 +4,8 @@ public class App {
         corgi Cheddar = new corgi();
         System.out.println(Cheddar);
         System.out.println(Cheddar.speak(3));
-
+        welsh doggy = new welsh();
+        System.out.println(doggy.getTreat());
 
     }
 }
