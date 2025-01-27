@@ -23,5 +23,9 @@ public class corgi extends Dog {
         }
         return output;
     }
+
+    public String toString() {
+        return super.toString() + "Leg size: " + legsize;
+    }
     
 }
