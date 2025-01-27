@@ -1,5 +1,5 @@
 public class corgi extends Dog {
-    private double legsize;
+    protected double legsize;
     public corgi() {
         this("Cheddar",0,4);
     }
