@@ -10,5 +10,17 @@ public class App {
 
         Dog[] doggies = {Clifford, Cheddar, doggy};
 
+
+
+        for(Dog d: doggies) {
+            System.out.println(makecollar(d));
+        }
     }
+
+    public static String makecollar(Dog d) {
+        int number = (int)(Math.random()*900 + 100);
+        return d.getName() + number;
+    }
+
+
 }
