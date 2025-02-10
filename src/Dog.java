@@ -1,4 +1,4 @@
-public class Dog {
+public class Dog extends animal implements Enemy{
 	private String name; 
 	private int age;
 
@@ -31,6 +31,26 @@ public class Dog {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	
 
+	@Override
+	public String attack() {
+		// TODO Auto-generated method stub
+		return "Bite";
+	}
+
+	@Override
+	public String move() {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'move'");
+	}
+
+	@Override
+	public boolean getKilled() {
+		if (age < 0) {
+			return false;
+		}
+		age = -1;
+		return true;
+	}
+	
 }

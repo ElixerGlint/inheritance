@@ -18,6 +18,12 @@ public class App {
         
         System.out.println();
 
+        animal a = new welsh();
+        System.out.println(a.attack());
+        System.out.println(a.eat(5));
+        System.out.println(a.weight);
+        System.out.println(a.getTreat());
+        
     }
 
 
